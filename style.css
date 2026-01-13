@@ -46,6 +46,7 @@ body {
 .hero {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 2rem;
 
@@ -83,7 +84,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  flex: 1 1 200px;
+  flex: 0 1 500px;
   min-height: 200px;
 }
 .main-image-placeholder p {
@@ -131,7 +132,6 @@ body {
 .quote {
   background-color: var(--white-secondary);
   padding: 5rem 0;
-  /* text-align: center; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,6 +162,7 @@ body {
 }
 .call-to-action .texts h1 {
   margin-bottom: 0.5rem;
+  font-size: 1.5rem;
 }
 .texts p {
   color: var(--white-secondary);
